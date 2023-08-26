@@ -59,7 +59,9 @@
         android:layout_height="35dp"
         android:layout_marginTop="20dp"
         android:background="@drawable/edit_text_border"
+        android:gravity="center"
         android:inputType="numberDecimal"
+        android:text="1"
         app:layout_constraintEnd_toEndOf="@+id/fromTextInputLayout"
         app:layout_constraintStart_toStartOf="@+id/fromTextInputLayout"
         app:layout_constraintTop_toBottomOf="@+id/fromTextInputLayout" />
@@ -70,9 +72,11 @@
         android:layout_height="35dp"
         android:layout_marginTop="20dp"
         android:background="@drawable/edit_text_border"
+        android:gravity="center"
         app:layout_constraintEnd_toEndOf="@+id/toTextInputLayout"
         app:layout_constraintStart_toStartOf="@+id/toTextInputLayout"
-        app:layout_constraintTop_toBottomOf="@+id/toTextInputLayout" />
+        app:layout_constraintTop_toBottomOf="@+id/toTextInputLayout"
+        tools:text="125" />
 
 
     <Button

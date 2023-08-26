@@ -6,4 +6,8 @@ interface RepositoryInterface {
 
     suspend fun getSymbols(): Response<Symbols>
 
+    suspend fun convertCurrency(
+        fromCurrency: String,
+        toCurrency: String
+    ): Response<Currency>
 }

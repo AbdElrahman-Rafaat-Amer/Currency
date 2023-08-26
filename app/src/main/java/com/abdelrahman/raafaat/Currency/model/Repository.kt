@@ -16,4 +16,8 @@ class Repository private constructor(private var remoteSource: RemoteSource) : R
 
     override suspend fun getSymbols(): Response<Symbols> = remoteSource.getSymbols()
 
+    override suspend fun convertCurrency(
+        fromCurrency: String,
+        toCurrency: String
+    ): Response<Currency> = remoteSource.convertCurrency(fromCurrency, toCurrency)
 }
