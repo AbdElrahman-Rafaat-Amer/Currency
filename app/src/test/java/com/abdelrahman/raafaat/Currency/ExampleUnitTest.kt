@@ -1,4 +1,4 @@
-package com.abdelrahman.raafaat.Currency
+package com.abdelrahman.raafaat.currency
 
 import org.junit.Test
 
